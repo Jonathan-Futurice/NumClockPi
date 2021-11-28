@@ -1,2 +1,5 @@
 # Enable SSH
 RUN touch /boot/ssh
+
+# Install an ssh key from local sources
+INSTALL id_rsa.pub /home/pi/.ssh/authorized_keys
