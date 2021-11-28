@@ -27,4 +27,4 @@ source modules/wifi.Pifile
 source modules/display.Pifile
 
 # Setup Magic Mirror
-source module/MagicMirror.Pifile
+source modules/magicMirror.Pifile
