@@ -25,3 +25,6 @@ source modules/wifi.Pifile
 
 # Setup the CTP40 Fysetc display
 source modules/display.Pifile
+
+# Setup Magic Mirror
+source module/MagicMirror.Pifile
