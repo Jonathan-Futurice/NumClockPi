@@ -1,0 +1,9 @@
+user="${BOOTSTRAP_USER:-pi}"
+HOME_DIR="/home/${user}"
+
+RUN bash -c "
+cd $HOME_DIR
+git clone https://github.com/FYSETC/FYSETC-CTP40
+cd FYSETC-CTP40/Pi3
+sudo ./install.sh 
+"

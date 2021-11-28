@@ -22,3 +22,6 @@ source modules/timezone.Pifile
 # Note: all 3 vars need to be set, otherwise wpa_supplicant.conf will not be generated
 # and Wi-Fi will be blocked with rfkill
 source modules/wifi.Pifile
+
+# Setup the CTP40 Fysetc display
+source modules/display.Pifile
