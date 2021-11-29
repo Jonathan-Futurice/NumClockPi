@@ -13,6 +13,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Create .env file
+        uses: SpicyPizza/create-envfile@v1.2
+        with: 
+          envkey_NUMCLOCK_PI_WPA_SSID: ${{ secrets.NUMCLOCK_PI_WPA_SSID }}
+          
       - uses: actions/checkout@v2
         with:
           submodules: recursive
